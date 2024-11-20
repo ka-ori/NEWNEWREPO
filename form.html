@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href = "./form.css">
+</head>
+<body>
+    <form action="">
+        <h1>Login Page</h1>
+        <div>
+            <label for="name">First Name :</label>
+            <input type="text" id="name">
+        </div> <br> 
+        <!-- line break for space between forms -->
+        <div>
+            <label for="l_name">Last Name : </label>
+            <input type="text" id="l_name">
+        </div><br>
+        <div>
+            <label for="">Age:</label>
+            <input type="number">
+        </div><br>
+        <div>
+            <label for="">DOB: </label>
+            <input type="date" name="" id="" min="2000-01-30" max = "2010-01-30">
+            <input type="time" name="" id="">
+        </div><br>
+        <div>
+            <label for="">Email</label>
+            <input type="email">
+        </div><br>
+        <div>
+            <label for="">Password</label>
+            <input type="password" name="" id="" required>
+            <!-- required for making it mandatory -->
+        </div> <br>
+        <div>
+            <label for="">Male</label>
+            <input type="radio" name="gender">
+            <label for="">Female</label>
+            <input type="radio" name="gender">
+            <!-- both same name makes it only one possible choice -->
+        </div><br>
+        <div>
+            <h3>Subject :</h3>
+            <label for="">Web</label>
+            <input type="checkbox">
+            <label for="">DSA</label>
+            <input type="checkbox">
+            <label for="">DBMS</label>
+            <input type="checkbox">
+        </div><br>
+        <div>
+            <label for="">Language</label>
+            <select name="" id="">
+                <option value="EN">English</option>
+                <option value="HI">Hindi</option>
+                <option value="TA" selected>Tamil</option>  
+                <option value="MA">Marathi</option>
+                <!-- selected for setting default value -->
+            </select>
+        </div>
+        <div>
+            <label for="">Color</label>
+            <input type="color">
+        </div><br>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
