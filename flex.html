@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 700px;
+            display: flex;
+            border: 2px solid red;
+            justify-content: end;
+            align-items: center;
+            /* default flex direction is row  */
+            /* if flex direction is row, then main axis is x, and cross is y axis, for flex direction column, the opposite happens */
+            /* justify-content: space-around; */
+            /* gives equal spacing between child for main axis  */
+            /* align-items: center; */
+            /* gives spacing on cross axis  */
+            flex-wrap: wrap;
+            /* helps to make elements go to the next line and prevent shrinking */
+        }
+        .box{
+            height : 100px;
+            width : 100px;
+            background-color: blue;
+            margin  :10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
